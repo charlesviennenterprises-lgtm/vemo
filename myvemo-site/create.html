@@ -1,1 +1,65 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Create Music — VEMO</title><link rel="stylesheet" href="assets/css/styles.css"></head><body><header class="topbar"><div class="wrap nav"><a class="brand" href="index.html"><span>VEMO</span>™</a><button class="menu">Menu</button><nav class="links"><a href="index.html">Home</a><a class="nav-cta" href="create.html">Create</a><a href="music.html">Discover</a><a href="radio.html">Radio</a><a href="library.html">Library</a><a href="tv.html">VEMO TV</a></nav></div></header><main><section><div class="wrap"><div class="section-head"><div><div class="eyebrow">VEMO Create</div><h2>Make a song from your idea.</h2></div><span class="free-badge">✓ Free • No credits required</span></div><div class="creator-shell"><div class="create-panel"><form class="form" data-create-form><div class="field"><label>Song title</label><input name="title" placeholder="My New Song" required></div><div class="field"><label>Describe the song</label><textarea name="description" placeholder="Example: Warm southern soul with live drums, church organ, deep bass and an emotional male vocal about finding love again." required></textarea></div><div class="field"><label>Lyrics</label><textarea name="lyrics" placeholder="Write your lyrics here. You can use sections like [Verse], [Chorus], [Bridge]..."></textarea></div><div class="two"><div class="field"><label>Style</label><input name="style" placeholder="Southern Soul, R&B, Blues"></div><div class="field"><label>Language</label><select name="language"><option value="en">English</option><option value="es">Spanish</option><option value="fr">French</option><option value="ja">Japanese</option></select></div></div><div class="two"><div class="field"><label>Duration (seconds)</label><input name="duration" type="number" min="30" max="300" placeholder="180"></div><label class="checkline"><input name="instrumental" type="checkbox"> Instrumental only</label></div><button type="submit" class="btn primary">Create Song</button><div class="statusbox" data-status>VEMO is ready for your idea.</div></form></div><aside class="feature"><div class="eyebrow">How it works</div><h3>Idea → VEMO → Song</h3><div class="feature-list"><div class="feature-row"><b>1</b><div><strong>Describe it</strong><div class="muted">Tell VEMO the mood, genre, instruments and feeling.</div></div></div><div class="feature-row"><b>2</b><div><strong>Add lyrics</strong><div class="muted">Write your own words or create an instrumental.</div></div></div><div class="feature-row"><b>3</b><div><strong>Create</strong><div class="muted">VEMO sends the job to the private ACE-Step engine.</div></div></div><div class="feature-row"><b>4</b><div><strong>Keep it</strong><div class="muted">Finished tracks appear in your VEMO Library.</div></div></div></div></aside></div></div></section></main><footer class="footer"><div class="wrap"><strong>VEMO Create</strong><span>Free music creation</span></div></footer><script src="assets/js/vemo-api.js"></script><script src="assets/js/app.js"></script></body></html>
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Create Music — VEMO</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="topbar"><div class="wrap nav"><a class="brand" href="index.html"><img src="assets/img/vemo-logo.svg" alt="VEMO logo"><span class="brand-copy"><strong>VEMO</strong><small>From Idea to Music</small></span></a><button class="menu">Menu</button><nav class="links"><a href="index.html">Home</a><a class="nav-cta" href="create.html">Create</a><a href="music.html">Discover</a><a href="radio.html">Radio</a><a href="library.html">Library</a><a href="tv.html">VEMO TV</a></nav></div></header>
+<main>
+  <section class="page-hero">
+    <div class="wrap shell">
+      <div>
+        <div class="eyebrow">VEMO Create</div>
+        <h1>Turn your vision into a record.</h1>
+        <p>Describe the sound, set the mood, add lyrics, and let VEMO do the heavy lifting. This studio stays free and creator-first.</p>
+      </div>
+      <div class="page-side-card">
+        <span class="free-badge">✓ Free • No credits required</span>
+        <ul class="note-list">
+          <li><strong>Be specific:</strong> mention genre, instruments, emotion, and tempo.</li>
+          <li><strong>Use sections:</strong> lyrics with verses and choruses usually give clearer structure.</li>
+          <li><strong>Start simple:</strong> create, listen back, then refine your next version.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrap creator-shell">
+      <div class="create-panel">
+        <form class="form" data-create-form>
+          <div class="field"><label>Song title</label><input name="title" placeholder="My New Song" required></div>
+          <div class="field"><label>Describe the song</label><textarea name="description" placeholder="Example: Warm southern soul with live drums, church organ, deep bass and an emotional male vocal about finding love again." required></textarea></div>
+          <div class="field"><label>Lyrics</label><textarea name="lyrics" placeholder="Write your lyrics here. You can use sections like [Verse], [Chorus], [Bridge]..."></textarea></div>
+          <div class="two">
+            <div class="field"><label>Style</label><input name="style" placeholder="Southern Soul, R&B, Blues"></div>
+            <div class="field"><label>Language</label><select name="language"><option value="en">English</option><option value="es">Spanish</option><option value="fr">French</option><option value="ja">Japanese</option></select></div>
+          </div>
+          <div class="two">
+            <div class="field"><label>Duration (seconds)</label><input name="duration" type="number" min="30" max="300" placeholder="180"></div>
+            <label class="checkline"><input name="instrumental" type="checkbox"> Instrumental only</label>
+          </div>
+          <button type="submit" class="btn primary">Create Song</button>
+          <div class="statusbox" data-status>VEMO is ready for your idea.</div>
+        </form>
+      </div>
+      <aside class="feature">
+        <div class="eyebrow">How it works</div>
+        <h3>Idea → VEMO → Song</h3>
+        <div class="feature-list">
+          <div class="feature-row"><b>1</b><div><strong>Describe it</strong><div class="muted">Tell VEMO the mood, genre, instruments and feeling.</div></div></div>
+          <div class="feature-row"><b>2</b><div><strong>Add lyrics</strong><div class="muted">Write your own words or create an instrumental.</div></div></div>
+          <div class="feature-row"><b>3</b><div><strong>Create</strong><div class="muted">VEMO sends the job to the private engine and tracks progress.</div></div></div>
+          <div class="feature-row"><b>4</b><div><strong>Keep it</strong><div class="muted">Finished songs can live in your VEMO Library.</div></div></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="wrap"><div class="footer-logo"><img src="assets/img/vemo-logo.svg" alt="VEMO"><strong>VEMO™ — FROM IDEA TO MUSIC.</strong></div><span>Free creator platform • Built for creators</span></div></footer>
+<script src="assets/js/vemo-api.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
